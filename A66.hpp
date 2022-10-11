@@ -6,7 +6,7 @@ using namespace std;
 
 // complete the function maxmin( )
 
-int maxmin(int n1, int n2, int n3, int &min, int &max)
+int maxmin(int n1, int n2, int n3, int& max, int& min)
 {
 if((n1 >= n3) && (n1 >= n2))
 {
